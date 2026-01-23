@@ -1,0 +1,90 @@
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ========================
+# Virtual environments
+# ========================
+venv/
+.env/
+.venv/
+conda/
+conda_env/
+
+# ========================
+# Jupyter / Colab
+# ========================
+.ipynb_checkpoints/
+
+# ========================
+# Deep Learning Artifacts
+# ========================
+data/
+datasets/
+*/data/
+*/datasets/
+
+# CIFAR / ImageNet / downloaded datasets
+cifar-10-batches-py/
+imagenet/
+mnist/
+
+# ========================
+# Training Outputs
+# ========================
+runs/
+logs/
+logging_dir/
+Experiment/logging_dir/
+checkpoints/
+*.ckpt
+*.pt
+*.pth
+*.h5
+
+# ========================
+# TensorBoard
+# ========================
+events.out.tfevents.*
+
+# ========================
+# OS / Editor junk
+# ========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ========================
+# Git safety
+# ========================
+*.log
+*.tmp
+# datasets
+data/
+datasets/
+cifar-10-batches-py/
+
+# experiment outputs
+logging_dir/
+runs/
+checkpoints/
+outputs/
+
+# tensorboard
+events.out.tfevents.*
+
+# python junk
+__pycache__/
+*.pyc
+
+# notebooks
+.ipynb_checkpoints/
